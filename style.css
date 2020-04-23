@@ -1,0 +1,99 @@
+* {
+
+  padding: 0;
+
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  background: #c8c4b7;
+
+
+
+
+
+}
+
+.body {
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #c8c4b7;
+
+  text-align: center;
+}
+
+
+
+
+.nav {
+
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  width: 800px;
+  background-color: white;
+  font-family: Calibri, sans-serif;
+  font-size: 16pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav a {
+
+  color: red;
+
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+
+
+.pdf {
+
+  margin-right: auto;
+  margin-left: auto;
+  width: 655px;
+  height: 6570px;
+  background-color: white;
+
+
+  color: red;
+
+}
+
+.graphic {
+
+  text-align: center;
+  margin: 0;
+
+  font-size: 800%;
+}
+
+@media screen and (max-width:800px) {
+  body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body,
+  .pdf,
+  .graphic {
+
+    width: 90%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .nav {
+
+
+    width: 100%;
+  }
+}
